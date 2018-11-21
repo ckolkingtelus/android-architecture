@@ -23,4 +23,7 @@
 
     <drawable name="touchFeedback">#CFD8DC</drawable>
 
+    <!-- by Christian Kolking -->
+    <color name="colorChevronStuff">#fFFFff00</color>
+
 </resources>

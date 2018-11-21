@@ -3,7 +3,12 @@
     android:height="24dp"
     android:viewportWidth="24.0"
     android:viewportHeight="24.0">
+    <!-- comment by Christian Kolking - ORIG: android:fillColor="#FFFFFFFF" -->
+    <!-- comment by Christian Kolking - NOT WORKING -
+    Can't process attribute android:fillColor="@color/colorChevronStuff": references to other resources are not supported by build-time PNG generation. See http://developer.android.com/tools/help/vector-asset-studio.html for details.
+==> cannot : android:fillColor="@color/colorChevronStuff" -->
+    <!-- comment by Christian Kolking - WORKING: android:fillColor="#fFFFff00" -->
     <path
-        android:fillColor="#FFFFFFFF"
+        android:fillColor="#fFFFff00"
         android:pathData="M3,18h18v-2H3v2zm0,-5h18v-2H3v2zm0,-7v2h18V6H3z" />
 </vector>
